@@ -2,8 +2,8 @@
 
 print ("hello world")
 
+
+# int 
 a = 66
 b = 88
-print (a<b , "a is smaller than b")
-
-
+print (a<b , "a is smaller than ")
