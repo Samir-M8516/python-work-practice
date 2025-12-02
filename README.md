@@ -1,2 +1,6 @@
 # python-work-practice
-this repository is created for me and my friend's practice in python language
+# python 
+
+this repository is created for my team practice and skill improvements there we will practice everything in python from scratch. 
+
+Class 12 Team
