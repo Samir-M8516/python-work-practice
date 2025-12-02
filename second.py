@@ -1,7 +1,8 @@
 # this is about Python Variables
 
 '''
-A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+A variable can have a short name (like x and y) or a more descriptive name
+ (age, carname, total_volume).
 
 Rules for Python variables:
 
@@ -41,4 +42,41 @@ print(x)
 print(y)
 
 
+# Global Variables
 
+'''
+Variables that are created outside of a function 
+(as in all of the examples in the previous pages) are known as global variables.
+'''
+# outside function
+
+y = "great"
+
+def my_self():
+    print("Samir is " + y)
+
+my_self()
+
+
+# Local Variables
+
+y = "awesome"
+
+def my_function():
+    y = "good"
+    print("samir is " + y)
+
+my_function()
+print("samir is " + y)
+
+
+# Changing Global Variables
+
+y = "beautiful"
+
+def my_car():
+    global y
+    y = "fantastic"
+
+my_car()
+print("BMW is " + y)
